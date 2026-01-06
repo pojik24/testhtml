@@ -1,0 +1,43 @@
+/* Toto je Css */
+
+* {
+    margin: 1;
+    padding: 1;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(55, 62, 70);
+    color: rgb(247, 0, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1 {
+    margin-left: 2em;
+    margin-top: 1em;
+}
+
+h2 {
+    margin: 1em;
+}
+
+li {
+    margin-left: 2em;
+}
+
+p {
+    color:rgb(194, 169, 241); 
+}
+
+#prvni {
+    color:rgb(148, 111, 221);
+}
+
+a {
+    color: aqua;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: azure;
+}
