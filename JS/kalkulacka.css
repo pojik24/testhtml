@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #040404;
+    color: #00af46;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2em;
+}
+
+h1 {
+    color: #00ff66;
+    border-bottom: 2px solid #00ff66;
+    padding-bottom: 0.5em;
+}
+
+
+#vysledek {
+    font-size: 4em;
+    font-weight: bold;
+    text-align: center;
+    margin: 0.5em 0;
+    padding: 0.3em;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: color 0.3s;
+}
+
+#formular {
+    text-align: center;
+    margin-top: 2em;
+}
+
+#vstup1 {
+    font-size: 1.2em;
+    padding: 0.5em;
+    width: 150px;
+    text-align: center;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 1em;
+    color: #00af46;    
+}
+
+#vstup2 {
+    font-size: 1.2em;
+    padding: 0.5em;
+    width: 150px;
+    text-align: center;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 1em;
+    color: #00af46;
+}
+
+#vstup:focus {
+    border-color: #8f540c;
+    outline: none;
+}
+
+button {
+    font-size: 1.2em;
+    padding: 0.5em 1.5em;
+    margin: 0.3em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.1s;
+    background: #00ff66;
+    color: rgb(0, 0, 0);
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
